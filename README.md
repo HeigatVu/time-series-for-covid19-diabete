@@ -29,13 +29,21 @@ The core of this time-series problem is to transform the data into a format suit
 A `LinearRegression` model from `scikit-learn` was used for this forecasting task. The model learns to predict the next day's value based on the linear relationship with the previous 7 days' values.
 
 ### 📈 Results
-The model demonstrated high accuracy in predicting the trend of cumulative deaths, showing its effectiveness for this short-term forecasting task.
+The model demonstrated high accuracy in predicting the trend of cumulative deaths in U.S, showing its effectiveness for this short-term forecasting task.
 
 * **Test R² Score**: 0.998
 * **Test Mean Absolute Error (MAE)**: ~322.5
 * **Visualization**: The plot of actual vs. predicted values shows that the model's predictions closely follow the actual data trend.
 
-![COVID-19 Forecast](https://i.imgur.com/k9x8Z7k.png)
+![COVID-19 Death Forecast in U.S](https://github.com/HeigatVu/time-series-for-covid19-diabete/blob/main/covid19/death-prediction-us.png)
+
+The other model demonstrated high accuracy in predicting the trend of cumulative recovered people around the world, showing its effectiveness for this short-term forecasting task.
+
+* **Test R² Score**: 0.999
+* **Test Mean Absolute Error (MAE)**: ~41117.29
+* **Visualization**: The plot of actual vs. predicted values shows that the model's predictions closely follow the actual data trend.
+
+![COVID-19 Recovered Forecast in the world](https://github.com/HeigatVu/time-series-for-covid19-diabete/blob/main/covid19/recovered-prediction-world.png)
 
 ---
 
