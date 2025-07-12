@@ -71,7 +71,7 @@ The high training accuracy and lower testing accuracy suggest some overfitting, 
 #### Feature Importance
 The model identified `Glucose`, `BMI`, and `Age` as the most influential factors in predicting diabetes, which aligns with established clinical knowledge.
 
-![Diabetes Feature Importance](https://i.imgur.com/2s3F4qE.png)
+![Diabetes Feature Importance](https://github.com/HeigatVu/time-series-for-covid19-diabete/blob/main/diabet/feature-importances.png)
 
 ---
 
